@@ -1,7 +1,7 @@
 [
     {
         "id": "mf-plugin-lastfm",
-        "name": "Las.fm (Python)",
+        "name": "Last.fm (Python)",
         "version": "0.2.1",
         "description": "Last.fm scraper: track metadata, album/artist info, covers",
         "author": "ansgoo",
