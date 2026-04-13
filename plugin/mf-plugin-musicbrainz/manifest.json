@@ -1,0 +1,38 @@
+{
+  "id": "mf-plugin-musicbrainz",
+  "displayName": "MusicBrainz (Go)",
+  "version": "0.1.0",
+  "author": "music-free",
+  "repo": "https://github.com/chenghaiwen/music-free/tree/main/plugin/mf-plugin-musicbrainz",
+  "icon": "icon.svg",
+  "type": "scraper",
+  "description": "MusicBrainz scraper plugin implemented with Go PDK",
+  "entry": {
+    "wasmPath": "plugin.wasm",
+    "exportedFunctions": {
+      "scraperSong": "ScraperSong",
+      "getCover": "GetCover",
+      "getAlbumInfo": "GetAlbumInfo",
+      "getArtistInfo": "GetArtistInfo"
+    }
+  },
+  "config": {
+    "fields": {
+      "api_base_url": {
+        "type": "string",
+        "default": "https://musicbrainz.org",
+        "description": "MusicBrainz server origin only (no /ws/2). The plugin always calls {origin}/ws/2/…"
+      },
+      "cover_art_base_url": {
+        "type": "string",
+        "default": "https://coverartarchive.org",
+        "description": "Cover Art Archive (or compatible mirror) origin only. Fetches {origin}/release/{releaseId}/front-500"
+      },
+      "user_agent": {
+        "type": "string",
+        "default": "MusicFree/Plugin-MusicBrainz",
+        "description": "Required by MusicBrainz API; include contact URL or email when using the public server."
+      }
+    }
+  }
+}

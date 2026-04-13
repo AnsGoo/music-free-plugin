@@ -1,0 +1,36 @@
+[
+    {
+        "id": "mf-plugin-lastfm",
+        "name": "Las.fm (Python)",
+        "version": "0.2.1",
+        "description": "Last.fm scraper: track metadata, album/artist info, covers",
+        "author": "ansgoo",
+        "license": "MIT",
+        "repository": "https://github.com/ansgoo/music-free-plugin/mf-plugin-lastfm",
+        "features": [
+            "ScraperSong",
+            "GetCover",
+            "GetAlbumInfo",
+            "GetArtistInfo"
+        ],
+        "download_url": "https://cdn.jsdelivr.net/gh/ansgoo/music-free-plugin@main/artifact/mf-plugin-lastfm.zip",
+        "icon": "https://cdn.jsdelivr.net/gh/ansgoo/music-free-plugin@main/plugin/mf-plugin-lastfm/icon.svg"
+    },
+    {
+        "id": "mf-plugin-musicbrainz",
+        "name": "MusicBrainz (Go)",
+        "version": "0.1.0",
+        "description": "MusicBrainz scraper plugin implemented with Go PDK",
+        "author": "ansgoo",
+        "license": "MIT",
+        "features": [
+            "ScraperSong",
+            "GetCover",
+            "GetAlbumInfo",
+            "GetArtistInfo"
+        ],
+        "repository": "https://github.com/ansgoo/music-free-plugin/mf-plugin-musicbrainz",
+        "download_url": "https://cdn.jsdelivr.net/gh/ansgoo/music-free-plugin@main/artifact/mf-plugin-musicbrainz.zip",
+        "icon": "https://cdn.jsdelivr.net/gh/ansgoo/music-free-plugin@main/plugin/mf-plugin-musicbrainz/icon.svg"
+    }
+]

@@ -1,0 +1,35 @@
+{
+  "id": "mf-plugin-lastfm",
+  "displayName": "Last.fm (Python)",
+  "version": "0.2.1",
+  "author": "music-free",
+  "repo": "https://github.com/chenghaiwen/music-free/tree/main/plugin/mf-plugin-lastfm",
+  "icon": "icon.svg",
+  "type": "scraper",
+  "description": "Last.fm scraper: track metadata, album/artist info, covers",
+  "entry": {
+    "wasmPath": "plugin.wasm",
+    "exportedFunctions": {
+      "scraperSong": "ScraperSong",
+      "getCover": "GetCover",
+      "getAlbumInfo": "GetAlbumInfo",
+      "getArtistInfo": "GetArtistInfo"
+    }
+  },
+  "config": {
+    "fields": {
+      "api_key": {
+        "type": "string",
+        "required": true
+      },
+      "shared_secret": {
+        "type": "string",
+        "required": true
+      },
+      "session_key": {
+        "type": "string",
+        "required": false
+      }
+    }
+  }
+}
