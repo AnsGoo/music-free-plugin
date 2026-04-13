@@ -32,5 +32,43 @@
         "repository": "https://github.com/ansgoo/music-free-plugin/mf-plugin-musicbrainz",
         "download_url": "https://cdn.jsdelivr.net/gh/ansgoo/music-free-plugin@main/artifact/mf-plugin-musicbrainz.zip",
         "icon": "https://cdn.jsdelivr.net/gh/ansgoo/music-free-plugin@main/plugin/mf-plugin-musicbrainz/icon.svg"
+    },
+    {
+        "id": "mf-plugin-qqmusic",
+        "name": "QQ Music (Go)",
+        "version": "0.1.0",
+        "description": "QQ Music scraper plugin implemented with Go PDK",
+        "author": "tinynas",
+        "license": "",
+        "features": [
+            "ScraperSong",
+            "GetCover",
+            "GetAlbumInfo",
+            "GetArtistInfo",
+            "FetchPlay",
+            "GetLyrics"
+        ],
+        "repository": "",
+        "download_url": "https://cdn.jsdelivr.net/npm/musicfree-plugin@1.0.1/artifact/mf-plugin-qqmusic.zip",
+        "icon": "https://cdn.jsdelivr.net/npm/musicfree-plugin@1.0.1/artifact/qqmusic-icon.svg"
+    },
+    {
+        "id": "mf-plugin-netease",
+        "name": "网易云音乐",
+        "version": "0.1.0",
+        "description": "NetEase Music scraper plugin for MusicFree (Extism WASM)",
+        "author": "tinynas",
+        "license": "",
+        "repository": "",
+        "features": [
+            "ScraperSong",
+            "GetCover",
+            "GetAlbumInfo",
+            "GetArtistInfo",
+            "FetchPlay",
+            "GetLyrics"
+        ],
+        "download_url": "https://cdn.jsdelivr.net/npm/musicfree-plugin@1.0.1/artifact/mf-plugin-netease.zip",
+        "icon": "https://cdn.jsdelivr.net/npm/musicfree-plugin@1.0.1/artifact/netease-icon.svg"
     }
 ]
