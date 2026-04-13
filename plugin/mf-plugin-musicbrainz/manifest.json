@@ -1,11 +1,10 @@
 {
-  "id": "mf-plugin-musicbrainz",
-  "displayName": "MusicBrainz (Go)",
+  "name": "mf-plugin-musicbrainz",
+  "title": "MusicBrainz (Go)",
   "version": "0.1.0",
   "author": "music-free",
-  "repo": "https://github.com/chenghaiwen/music-free-plugin/tree/main/mf-plugin-musicbrainz",
+  "repo": "https://github.com/chenghaiwen/music-free/tree/main/plugin/mf-plugin-musicbrainz",
   "icon": "icon.svg",
-  "type": "scraper",
   "description": "MusicBrainz scraper plugin implemented with Go PDK",
   "entry": {
     "wasmPath": "plugin.wasm",

@@ -1,11 +1,10 @@
 {
-  "id": "mf-plugin-lastfm",
-  "displayName": "Last.fm (Python)",
+  "name": "mf-plugin-lastfm",
+  "title": "Last.fm (Python)",
   "version": "0.2.1",
   "author": "music-free",
-  "repo": "https://github.com/chenghaiwen/music-free-plugin/tree/main/mf-plugin-lastfm",
+  "repo": "https://github.com/chenghaiwen/music-free/tree/main/plugin/mf-plugin-lastfm",
   "icon": "icon.svg",
-  "type": "scraper",
   "description": "Last.fm scraper: track metadata, album/artist info, covers",
   "entry": {
     "wasmPath": "plugin.wasm",
