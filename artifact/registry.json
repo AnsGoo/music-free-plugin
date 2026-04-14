@@ -1,74 +1,64 @@
 [
-    {
-        "name": "mf-plugin-lastfm",
-        "title": "Last.fm (Python)",
-        "version": "0.2.1",
-        "description": "Last.fm scraper: track metadata, album/artist info, covers",
-        "author": "ansgoo",
-        "license": "MIT",
-        "repository": "https://github.com/ansgoo/music-free-plugin/mf-plugin-lastfm",
-        "features": [
-            "ScraperSong",
-            "GetCover",
-            "GetAlbumInfo",
-            "GetArtistInfo"
-        ],
-        "download_url": "https://cdn.jsdelivr.net/gh/ansgoo/music-free-plugin@main/artifact/mf-plugin-lastfm.zip",
-        "icon": "https://cdn.jsdelivr.net/gh/ansgoo/music-free-plugin@main/plugin/mf-plugin-lastfm/icon.svg"
-    },
-    {
-        "name": "mf-plugin-musicbrainz",
-        "title": "MusicBrainz (Go)",
-        "version": "0.1.0",
-        "description": "MusicBrainz scraper plugin implemented with Go PDK",
-        "author": "ansgoo",
-        "license": "MIT",
-        "features": [
-            "ScraperSong",
-            "GetCover",
-            "GetAlbumInfo",
-            "GetArtistInfo"
-        ],
-        "repository": "https://github.com/ansgoo/music-free-plugin/mf-plugin-musicbrainz",
-        "download_url": "https://cdn.jsdelivr.net/gh/ansgoo/music-free-plugin@main/artifact/mf-plugin-musicbrainz.zip",
-        "icon": "https://cdn.jsdelivr.net/gh/ansgoo/music-free-plugin@main/plugin/mf-plugin-musicbrainz/icon.svg"
-    },
-    {
-        "name": "mf-plugin-qqmusic",
-        "title": "QQ Music (Go)",
-        "version": "0.1.0",
-        "description": "QQ Music scraper plugin implemented with Go PDK",
-        "author": "tinynas",
-        "license": "",
-        "features": [
-            "ScraperSong",
-            "GetCover",
-            "GetAlbumInfo",
-            "GetArtistInfo",
-            "FetchPlay",
-            "GetLyrics"
-        ],
-        "repository": "",
-        "download_url": "https://cdn.jsdelivr.net/npm/musicfree-plugin@1.0.2/artifact/mf-plugin-qqmusic.zip",
-        "icon": "https://cdn.jsdelivr.net/npm/musicfree-plugin@1.0.2/artifact/qqmusic-icon.svg"
-    },
-    {
-        "name": "mf-plugin-netease",
-        "title": "网易云音乐",
-        "version": "0.1.0",
-        "description": "NetEase Music scraper plugin for MusicFree (Extism WASM)",
-        "author": "tinynas",
-        "license": "",
-        "repository": "",
-        "features": [
-            "ScraperSong",
-            "GetCover",
-            "GetAlbumInfo",
-            "GetArtistInfo",
-            "FetchPlay",
-            "GetLyrics"
-        ],
-        "download_url": "https://cdn.jsdelivr.net/npm/musicfree-plugin@1.0.2/artifact/mf-plugin-netease.zip",
-        "icon": "https://cdn.jsdelivr.net/npm/musicfree-plugin@1.0.2/artifact/netease-icon.svg"
-    }
+  {
+    "name": "mf-plugin-lastfm",
+    "title": "Last.fm (Python)",
+    "version": "0.2.1",
+    "description": "Last.fm scraper: track metadata, album/artist info, covers",
+    "author": "ansgoo",
+    "license": "MIT",
+    "repository": "https://github.com/ansgoo/music-free-plugin/mf-plugin-lastfm",
+    "features": ["ScraperSong", "GetCover", "GetAlbumInfo", "GetArtistInfo"],
+    "download_url": "https://cdn.jsdelivr.net/gh/ansgoo/music-free-plugin@main/artifact/mf-plugin-lastfm.zip",
+    "icon": "https://cdn.jsdelivr.net/gh/ansgoo/music-free-plugin@main/plugin/mf-plugin-lastfm/icon.svg"
+  },
+  {
+    "name": "mf-plugin-musicbrainz",
+    "title": "MusicBrainz (Go)",
+    "version": "0.1.0",
+    "description": "MusicBrainz scraper plugin implemented with Go PDK",
+    "author": "ansgoo",
+    "license": "MIT",
+    "features": ["ScraperSong", "GetCover", "GetAlbumInfo", "GetArtistInfo"],
+    "repository": "https://github.com/ansgoo/music-free-plugin/mf-plugin-musicbrainz",
+    "download_url": "https://cdn.jsdelivr.net/gh/ansgoo/music-free-plugin@main/artifact/mf-plugin-musicbrainz.zip",
+    "icon": "https://cdn.jsdelivr.net/gh/ansgoo/music-free-plugin@main/plugin/mf-plugin-musicbrainz/icon.svg"
+  },
+  {
+    "name": "mf-plugin-qqmusic",
+    "title": "QQ Music (Go)",
+    "version": "0.1.0",
+    "description": "QQ Music scraper plugin implemented with Go PDK",
+    "author": "tinynas",
+    "license": "",
+    "features": [
+      "ScraperSong",
+      "GetCover",
+      "GetAlbumInfo",
+      "GetArtistInfo",
+      "FetchPlayList",
+      "GetLyrics"
+    ],
+    "repository": "",
+    "download_url": "https://cdn.jsdelivr.net/npm/musicfree-plugin@1.0.3/artifact/mf-plugin-qqmusic.zip",
+    "icon": "https://cdn.jsdelivr.net/npm/musicfree-plugin@1.0.3/artifact/qqmusic-icon.svg"
+  },
+  {
+    "name": "mf-plugin-netease",
+    "title": "网易云音乐",
+    "version": "0.1.0",
+    "description": "NetEase Music scraper plugin for MusicFree (Extism WASM)",
+    "author": "tinynas",
+    "license": "",
+    "repository": "",
+    "features": [
+      "ScraperSong",
+      "GetCover",
+      "GetAlbumInfo",
+      "GetArtistInfo",
+      "FetchPlayLIst",
+      "GetLyrics"
+    ],
+    "download_url": "https://cdn.jsdelivr.net/npm/musicfree-plugin@1.0.3/artifact/mf-plugin-netease.zip",
+    "icon": "https://cdn.jsdelivr.net/npm/musicfree-plugin@1.0.3/artifact/netease-icon.svg"
+  }
 ]
