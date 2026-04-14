@@ -35,12 +35,12 @@
       "GetCover",
       "GetAlbumInfo",
       "GetArtistInfo",
-      "FetchPlayList",
+      "FetchPlaylist",
       "GetLyrics"
     ],
     "repository": "",
-    "download_url": "https://cdn.jsdelivr.net/npm/musicfree-plugin@1.0.3/artifact/mf-plugin-qqmusic.zip",
-    "icon": "https://cdn.jsdelivr.net/npm/musicfree-plugin@1.0.3/artifact/qqmusic-icon.svg"
+    "download_url": "https://cdn.jsdelivr.net/npm/musicfree-plugin@latest/artifact/mf-plugin-qqmusic.zip",
+    "icon": "https://cdn.jsdelivr.net/npm/musicfree-plugin@latest/artifact/qqmusic-icon.svg"
   },
   {
     "name": "mf-plugin-netease",
@@ -55,10 +55,10 @@
       "GetCover",
       "GetAlbumInfo",
       "GetArtistInfo",
-      "FetchPlayLIst",
+      "FetchPlaylist",
       "GetLyrics"
     ],
-    "download_url": "https://cdn.jsdelivr.net/npm/musicfree-plugin@1.0.3/artifact/mf-plugin-netease.zip",
-    "icon": "https://cdn.jsdelivr.net/npm/musicfree-plugin@1.0.3/artifact/netease-icon.svg"
+    "download_url": "https://cdn.jsdelivr.net/npm/musicfree-plugin@latest/artifact/mf-plugin-netease.zip",
+    "icon": "https://cdn.jsdelivr.net/npm/musicfree-plugin@latest/artifact/netease-icon.svg"
   }
 ]
